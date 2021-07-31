@@ -1,5 +1,8 @@
-
 <html>
+<?php
+    include "header.php"; 
+    ?>
+
 <header>
     <h1>Hello User!</h1>
     <title> Blog - CMS </title>
@@ -10,9 +13,9 @@
 <body>
 
     <nav>
-        <a href="index.html">Blog</a> 
-        <a href="post.html">Post</a> 
-        <a href="post-submission.html">Submission</a> 
+        <a href="index.php">Blog</a> 
+        <a href="post.php">Post</a> 
+        <a href="post-submission.php">Submission</a> 
       </nav>
 
 <br></br>
@@ -36,6 +39,8 @@
          <p>Posted by Bianca Romero</p>
          <p><a href="example@gmail.com">example@gmail.com</a></p>
     </footer>
+
+    
 
 </body>
 </html>

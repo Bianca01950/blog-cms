@@ -1,19 +1,21 @@
-
 <html>
-<head>
+<?php
+    include "header.php"; 
+    ?>
+<header>
 
     <h1>Hello User!</h1>
     <title> Blog - CMS </title>
     
  <link rel="stylesheet" type="text/css" href="format.css" />
 
-</head>
+</header>
 <body>
 
     <nav>
-        <a href="index.html">Blog</a> 
-        <a href="post.html">Post</a> 
-        <a href="post-submission.html">Submission</a> 
+        <a href="index.php">Blog</a> 
+        <a href="post.php">Post</a> 
+        <a href="post-submission.php">Submission</a> 
       </nav>
 
 <br></br>
@@ -43,6 +45,7 @@
          <p>Posted by Bianca Romero</p>
          <p><a href="example@gmail.com">example@gmail.com</a></p>
     </footer>
+
 
 </body>
 </html>
